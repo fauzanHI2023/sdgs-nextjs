@@ -1,0 +1,15 @@
+.DS_Store
+node_modules/
+.env
+.env.*
+!.env.example
+
+frontend/.next/
+frontend/out/
+
+backend/.tmp/
+backend/dist/
+backend/build/
+backend/.cache/
+backend/public/uploads/
+backend/data/

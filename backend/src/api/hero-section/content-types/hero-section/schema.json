@@ -1,0 +1,47 @@
+{
+  "kind": "singleType",
+  "collectionName": "hero_sections",
+  "info": {
+    "singularName": "hero-section",
+    "pluralName": "hero-sections",
+    "displayName": "Hero Section",
+    "description": "Konten Hero Section untuk halaman Home"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "tagline": {
+      "type": "string",
+      "required": true,
+      "maxLength": 80
+    },
+    "titleHero": {
+      "type": "string",
+      "required": true,
+      "maxLength": 150
+    },
+    "subtitleHero": {
+      "type": "text",
+      "required": true,
+      "maxLength": 300
+    },
+    "ctaConsultation": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.cta-button"
+    },
+    "ctaVolunteer": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.cta-button"
+    },
+    "heroImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": ["images"]
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_mitracolaboration_mitracolaborations",
+  "info": {
+    "displayName": "mitracolaboration"
+  },
+  "options": {},
+  "attributes": {
+    "logoCompany": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "namaPerusahaan": {
+      "type": "text"
+    }
+  },
+  "config": {}
+}

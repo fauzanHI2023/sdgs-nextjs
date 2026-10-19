@@ -1,0 +1,20 @@
+{
+  "kind": "singleType",
+  "collectionName": "mitra_colaborations",
+  "info": {
+    "singularName": "mitra-colaboration",
+    "pluralName": "mitra-colaborations",
+    "displayName": "Mitra Colaboration"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "mitracolaboration": {
+      "type": "component",
+      "component": "mitracolaboration.mitracolaboration",
+      "repeatable": true
+    }
+  }
+}

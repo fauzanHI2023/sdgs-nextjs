@@ -1,0 +1,65 @@
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@theme {
+  --breakpoint-md: 900px;
+  --breakpoint-lg: 1000px;
+
+  --color-deep: #7a1030;
+  --color-burgundy: #a21942;
+  --color-primary: #c5192d;
+  --color-bright: #e5243b;
+  --color-gold: #fd9d24;
+  --color-ink: #2a1216;
+  --color-body: #4a4a4a;
+  --color-line: #e7dedc;
+  --color-tint-bg: #fbf6f5;
+  --color-tint-1: #fbeaea;
+  --color-tint-2: #f7e0e6;
+  --color-tint-3: #fdeedb;
+  --color-tint-4: #f3e7da;
+  --color-tint-5: #f6e9ec;
+  --color-card-panel: #fbf1f2;
+  --color-card-panel-hover: #fadfe3;
+  --radius-soft: 6px;
+  --radius-card: 14px;
+
+  --animate-progress: progress 5s linear forwards;
+  @keyframes progress {
+    from {
+      width: 0%;
+    }
+    to {
+      width: 100%;
+    }
+  }
+
+  --breakpoint-sm: 640px;
+  --breakpoint-md: 900px;
+  --breakpoint-lg: 1000px;
+  --breakpoint-xl: 1280px;
+  --breakpoint-2xl: 1536px;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+  --font-sans: var(--font-gantari), sans-serif;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  color: var(--color-body);
+}

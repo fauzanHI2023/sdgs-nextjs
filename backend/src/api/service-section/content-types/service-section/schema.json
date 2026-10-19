@@ -1,0 +1,29 @@
+{
+  "kind": "singleType",
+  "collectionName": "service_sections",
+  "info": {
+    "singularName": "service-section",
+    "pluralName": "service-sections",
+    "displayName": "Service Section"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "titlePrefix": {
+      "type": "string"
+    },
+    "titleHighlight": {
+      "type": "string"
+    },
+    "subTitle": {
+      "type": "text"
+    },
+    "services": {
+      "type": "component",
+      "component": "services.services",
+      "repeatable": true
+    }
+  }
+}
